@@ -1,0 +1,59 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "看世界",
+          "pathName": "pages/videos/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "mini",
+          "pathName": "miniprogram_npm\\@miniprogram-component-plus\\video-swiper\\index.wxml",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "组件",
+          "pathName": "components/video-swiper/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "付款码",
+          "pathName": "pages/pay/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "健康码",
+          "pathName": "pages/healthy/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "健康监测",
+          "pathName": "pages/healwatch/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "主页",
+          "pathName": "pages/index/index",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

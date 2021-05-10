@@ -1,0 +1,66 @@
+<!--index.wxml-->
+<view class="container">
+  <!--上标-->
+  <view class="top">
+    <text class="top_text">关怀版</text>
+    <!-- <button size="mini" plain="true"
+    class="top_btn"bindtap="getAddress" ><image src="../../icons/位置.png" class="top_img">
+    </image></button> -->
+    <image src="../../icons/位置.png" class="top_img">
+    </image>
+    <text class="top_map">{{city}}</text>
+  </view>
+  <!--Part 1-->
+ <view class="img_row" style="flex-direction:row;">
+   <view class="img_body">
+   <navigator class="img_nav" url="../pay/index">
+     <image class="img_item"src="../../icons/fukuan.png">
+     </image>
+   </navigator>
+   <text class="img_text">付款码</text>
+   </view>
+   <view class="img_body">
+   <navigator class="img_nav" url="../healthy/index">
+     <image  class="img_item"src="../../icons/jiankang.png">
+     </image>
+   </navigator>
+   <text class="img_text">健康码</text>
+   </view>
+ </view>
+<!--Part 2-->
+ <view class="img_row" style="flex-direction:row;">
+   <view class="img_body">
+   <navigator class="img_nav" url="">
+     <image  class="img_itemshi" src="../../icons/视频通话.png">
+     </image>
+   </navigator>
+   <text class="img_text">视频通话</text>
+   </view>
+   <view class="img_body">
+   <navigator class="img_nav" url="">
+     <image  class="img_item"src="../../icons/点我达.png">
+     </image>
+   </navigator>
+   <text class="img_text">点我达</text>
+   </view>
+ </view>
+<!--Part 3-->
+ <view class="img_row" style="flex-direction:row;">
+   <view class="img_body">
+   <navigator class="img_nav" url="">
+     <image class="img_item"src="../../icons/惠折扣.png">
+     </image>
+   </navigator>
+   <text class="img_text">惠折扣</text>
+   </view>
+   <view class="img_body">
+   <navigator class="img_nav" url="../healwatch/index">
+     <image  class="img_item"src="../../icons/健康监测.png">
+     </image>
+   </navigator>
+   <text class="img_text">健康监测</text>
+   </view>
+ </view>
+
+
+</view>

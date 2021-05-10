@@ -1,0 +1,60 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/videos/index",
+    "pages/info/index",
+    "pages/user/index",
+    "pages/logs/logs",
+    "pages/login/login",
+    "pages/pay/index",
+    "pages/healthy/index",
+    "pages/healwatch/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#4D36FC",
+    "navigationBarTitleText": "爱易达",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#4D36FC",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/index.png",
+        "selectedIconPath": "icons/index_o.png"
+      },
+      {
+        "pagePath": "pages/videos/index",
+        "text": "看世界",
+        "iconPath": "icons/videos.png",
+        "selectedIconPath": "icons/videos_o.png"
+      },
+      {
+        "pagePath": "pages/info/index",
+        "text": "信息",
+        "iconPath": "icons/info.png",
+        "selectedIconPath": "icons/info_o.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "icons/user.png",
+        "selectedIconPath": "icons/user_o.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "请求获取您的位置信息"
+    }
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+  
+}

@@ -1,0 +1,48 @@
+<view class="page">
+    <view class="page__bd">
+        <mp-cells >
+            <mp-cell title="联系人" link>
+                <view slot="footer">
+                    <view style="display: inline-block;vertical-align:middle; font-size: 17px;"></view>
+                    <!-- <mp-badge style="margin-left: 5px;margin-right: 5px;" ext-class="blue"/> -->
+                </view>
+            </mp-cell>
+        </mp-cells>
+
+        <mp-cells title="消息列表">
+          <!--联系人1-->
+            <mp-cell link>
+                <view slot="title" style="position: relative;margin-right: 10px;">
+                    <image src="../../icons/群头像.jpg" style="width: 50px; height: 50px; display: block"/>
+                    <mp-badge content="99+" style="position: absolute;top: -.4em;right: -.4em;"/>
+                </view>
+                <view>相亲相爱一家人</view>
+                <view style="font-size: 13px;color: #888888;"></view>
+            </mp-cell>
+          <!--联系人2-->
+            <mp-cell link>
+                <view slot="title" style="position: relative;margin-right: 10px;">
+                    <image src="../../icons/头像1.jpg" style="width: 50px; height: 50px; display: block"/>
+                    <mp-badge content="2" style="position: absolute;top: -.4em;right: -.4em;"/>
+                </view>
+                <view>云淡风轻</view>
+                <view style="font-size: 13px;color: #888888;"></view>
+            </mp-cell>
+            <!--联系人3-->
+
+            <mp-cell link>
+                <view slot="title" style="position: relative;margin-right: 10px;">
+                    <image src="../../icons/头像2.jpg" style="width: 50px; height: 50px; display: block"/>
+                    <mp-badge content="3" style="position: absolute;top: -.4em;right: -.4em;"/>
+                </view>
+                <view>四大皆空</view>
+                <view style="font-size: 13px;color: #888888;"></view>
+            </mp-cell>
+           
+            <!-- <mp-cell link>
+                <view style="display: inline-block; vertical-align: middle">单行列表</view>
+                <mp-badge style="margin-left: 5px;" content="2"/>
+            </mp-cell> -->
+        </mp-cells>
+    </view>
+</view>

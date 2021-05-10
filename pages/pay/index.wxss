@@ -1,0 +1,121 @@
+Page {
+  background-color: #383c42;
+}
+.main{
+  position: fixed;
+  top:65rpx;
+}
+.qrcode_item {
+  /* padding-top:10px; */
+  width: 670rpx;
+  margin: 40rpx auto 0;
+  background: #fff;
+  box-shadow: 0 0 2rpx 0 rgba(25, 29, 33, 0.15);
+  border-radius: 12rpx;
+  padding:  40rpx;
+  box-sizing: border-box;
+  position: relative;
+}
+.tips{
+  height: 30px;
+  text-align: center;
+  font-size:50rpx;
+  color: black;
+}
+.item {
+  border-bottom: 2rpx solid #F4F5F7;
+  padding-left:145rpx;
+}
+.item > button {
+  height: 80rpx;
+  font-size: 30rpx;
+  line-height: 60rpx;
+  display: inline-block;
+  padding: 0 15rpx;
+  margin: 10rpx 20rpx 0 0;
+}
+.qrcode {
+  width: 590rpx;
+  margin: 0 auto;
+  padding: 50rpx 0 59rpx;
+  border-top: 2rpx solid #F4F5F7;
+}
+.qrcode > view, .qrcode > text {
+  text-align: center;
+}
+canvas {
+  margin: 58rpx auto 0;
+}
+.type {
+  margin-top: 24rpx;
+  font-size: 28rpx;
+  color: #585C64;
+  line-height: 32rpx;
+}
+.tips {
+  margin-top: 40rpx;
+  font-size: 24rpx;
+  color: #999BA1;
+  line-height: 28rpx;
+}
+.input-container {
+  padding: 10rpx 0 0 0;
+  width: 590rpx;
+  margin: 0 auto;
+  height: 102rpx;
+}
+.input-container > input {
+  display: inline-block;
+  height: 80rpx;
+  font-size: 28rpx;
+  color: #191D21;
+  line-height: 102rpx;
+  width: 450rpx;
+}
+/* button {
+  width: 150rpx;
+  height: 80rpx;
+  font-size: 30rpx;
+  line-height: 60rpx;
+  display: inline-block;
+  float: right;
+  margin-top: 10rpx;
+  padding-right: 0ch;
+} */
+.arrow {
+  width: 28rpx;
+  height: 28rpx;
+  vertical-align: top;
+  margin-top: 36rpx;
+  float: right;
+}
+.round {
+  width: 24rpx;
+  height: 24rpx;
+  border-radius: 50%;
+  background-color: #383c42;
+  position: absolute;
+  top: 735rpx;
+}
+.round_left {
+  left: -12rpx;
+}
+.round_right {
+  right: -12rpx;
+}
+.intro {
+  width: 590rpx;
+  margin-top: 20rpx;
+}
+.intro_item > view{
+  color: #999BA1;
+  font-size: 28rpx;
+  line-height: 48rpx;
+  word-wrap: break-word;
+  margin-bottom: 8rpx;
+}
+.intro_item > .title {
+  font-size: 32rpx;
+  color: #999BA1;
+  line-height: 50rpx;
+}

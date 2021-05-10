@@ -1,0 +1,18 @@
+<mp-video-swiper 
+  class="video-swiper" 
+  index="{{current_index}}"
+  video-list="{{videoList}}" 
+  bindplay="onPlay"
+  bindpause="onPause"
+  bindtimeupdate="onTimeUpdate"
+  bindended="onEnded"
+  binderror="onError"
+  bindwaiting="onWaiting"
+  bindprogress="onProgress"
+  bindUpdataVideo="onUpdataVideo"
+  bindloadedmetadata="onLoadedMetaData"
+></mp-video-swiper>
+
+    
+
+

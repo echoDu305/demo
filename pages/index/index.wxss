@@ -1,0 +1,60 @@
+/**index.wxss**/
+.container{
+  padding-top: 50rpx;
+}
+.top{
+  flex-direction: row;
+  display: flex;
+  width:100%
+}
+.top_text{
+  padding-left: 50rpx;
+  font-size:20px;
+}
+.top_btn{
+  padding-right: 30rpx;
+ width: 50rpx;
+ height: 85rpx;
+}
+.top_img{
+  padding:  0;
+  padding-left: 250rpx;
+  width: 80rpx;
+  height:80rpx;
+}
+.top_map{
+  padding-right: 25rpx;
+  font-size:20px;
+}
+.img_row{
+  flex-direction: row;
+  display: flex;
+}
+.img_body{
+  flex:1;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.img_nav{
+  flex:1;
+  width:375rpx;
+}
+image{
+  width:150rpx;
+  height:150rpx;
+  margin: 0 auto;
+  padding-left:100rpx;
+  padding-bottom: 30rpx;
+  padding-top: 60rpx;
+}
+.img_text{
+  flex:1;
+  font-size:25px;
+  text-align: center
+}
+.img_itemshi{
+  height:100rpx;
+  padding-top:105rpx ;
+  padding-bottom:50 rpx;
+}
