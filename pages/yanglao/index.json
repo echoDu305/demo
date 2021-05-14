@@ -1,0 +1,6 @@
+{
+  "usingComponents": { "SearchInput":"../../components/SearchInput/SearchInput"},
+  "navigationBarTitleText":"养老机构",
+  "enablePullDownRefresh":true,
+  "backgroundTextStyle":"dark"
+}

@@ -1,0 +1,67 @@
+<!--pages/yanglao/index.wxml-->
+
+<SearchInput></SearchInput>
+<view id='tabs'>
+  <view class='tabs-box'>
+    <block wx:for="{{['距离最近','官方推荐','高分好评']}}" wx:key="index">
+      <view class="tabs-item {{currentTabIndex == index ? 'selected' : '' }}" bindtap='onTabsItemTap' data-index='{{index}}'>
+        {{item}}      
+      </view>
+    </block>
+  </view>
+  <view class='ordert-detail'>
+    <view hidden='{{currentTabIndex != 0}}'>
+      <view class="first_tab">
+      <navigator class="goods_item"
+      >
+        <view class="goods_img_wrap">
+          <image mode="widthFix" src="../../images/酒店5.jpg"></image>
+        </view>
+        <view class="goods_info_wrap">
+          <view class="goods_name">三亚森海度假公寓</view>
+          <view class="goods_price">￥5000/月</view>
+        </view>
+      </navigator>
+    </view>
+    <view class="first_tab">
+      <navigator class="goods_item"
+      >
+        <view class="goods_img_wrap">
+          <image mode="widthFix" src="../../images/酒店6.jpg"></image>
+        </view>
+        <view class="goods_info_wrap">
+          <view class="goods_name">三亚水月局老年公寓</view>
+          <view class="goods_price">￥2000/月</view>
+        </view>
+      </navigator>
+    </view>
+    <view class="first_tab">
+      <navigator class="goods_item"
+      >
+        <view class="goods_img_wrap">
+          <image mode="widthFix" src="../../images/酒店7.jpg"></image>
+        </view>
+        <view class="goods_info_wrap">
+          <view class="goods_name">海口市普亲第二老年公寓</view>
+          <view class="goods_price">￥1800/月</view>
+        </view>
+      </navigator>
+    </view>
+    <view class="first_tab">
+      <navigator class="goods_item"
+      >
+        <view class="goods_img_wrap">
+          <image mode="widthFix" src="../../images/酒店8.jpg"></image>
+        </view>
+        <view class="goods_info_wrap">
+          <view class="goods_name">海口市普亲老年养护中心</view>
+          <view class="goods_price">￥5000/月</view>
+        </view>
+      </navigator>
+    </view>
+    </view>
+    <view hidden='{{currentTabIndex != 1}}'>页面2</view>
+    <view hidden='{{currentTabIndex != 2}}'>页面3</view>
+
+  </view>
+</view>

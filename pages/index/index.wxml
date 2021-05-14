@@ -13,14 +13,14 @@
   <!--Part 1-->
  <view class="img_row" style="flex-direction:row;">
    <view class="img_body">
-   <navigator class="img_nav" url="../pay/index">
-     <image class="img_item"src="../../icons/fukuan.png">
+   <navigator class="img_nav" url="../yanglao/index">
+     <image class="img_item"src="../../icons/养老机构.png">
      </image>
    </navigator>
    <text class="img_text">养老机构</text>
    </view>
    <view class="img_body">
-   <navigator class="img_nav" url="../healthy/index">
+   <navigator class="img_nav" url="../quhainan/index">
      <image  class="img_item"src="../../icons/jiankang.png">
      </image>
    </navigator>

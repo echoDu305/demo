@@ -1,2 +1,67 @@
 <!--pages/healwatch/index.wxml-->
+<view>
+<view class="watch">
+<image class="watch_img" src="../../icons/运动手表.png"></image>
+<text class="watch_text">HUAWEI GT2</text>
+</view>
+
+<view class="icons">
+  <view class="iocns_part">
+    <view class="icons_sm">
+    <image class="icons_img" src="../../icons/血压.png"></image>
+    <text class="title">血压</text>
+  </view>
+    <text class="data">--</text>
+  </view>
+  <view class="iocns_part">
+
+  
+    <view class="icons_sm">
+    <image class="icons_img" src="../../icons/心率.png"></image>
+    <text class="title" >心率</text>
+  </view>
+    <text class="data">--</text>
+  </view>
+  <view class="iocns_part">
+    <view class="icons_sm">
+    <image class="icons_img"  src="../../icons/血氧.png"></image>
+    <text class="title">血氧</text>
+  </view>
+    <text class="data">--</text>
+  </view>
+</view>
+
+<view class="icons">
+  <view class="iocns_part">
+    <view class="icons_sm">
+    <image class="icons_img" src="../../icons/体重.png"></image>
+    <text class="title">体重</text>
+  </view>
+    <text class="data">--</text>
+  </view>
+  <view class="iocns_part">
+    <view class="icons_sm">
+    <image class="icons_img" src="../../icons/位置.png"></image>
+    <text class="title">位置</text>
+  </view>
+    <text class="data">--</text>
+  </view>
+  <view class="iocns_part">
+    <view class="icons_sm">
+    <image class="icons_img" src="../../icons/提醒.png"></image>
+    <text class="title">提醒</text>
+  </view>
+    <text class="data">--</text>
+  </view>
+
+  
+</view>
+<text style="font-size:45rpx; padding-left:50rpx; padding-top:25rpx;">您的位置：</text>
+<view class="" hover-class="none" hover-stop-propagation="false" >
+
+<map id="map" longitude="{{longitude}}" latitude=" {{latitude}}" markers="{{markers}}" scale="13" show-location ></map>
+
+
+</view>
+</view>
 

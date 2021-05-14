@@ -1,0 +1,58 @@
+/* pages/yanglao/index.wxss */
+SearchInput{
+  background-color:"#4D36FC" ;
+}
+#tabs{
+  font-size: 28rpx;
+}
+.tabs-box{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height: 80rpx;
+    line-height: 80rpx;
+    text-align: center
+}
+.tabs-item.selected {
+    color:#874b27;
+    border-bottom:2rpx solid #874b27;
+}
+.tabs-item {
+    width: 33.3%;
+    color:#666;
+    border-bottom:1rpx solid #e9e9e9;
+}
+
+
+.first_tab .goods_item{
+  display: flex;
+  border-bottom: 5rpx solid #ccc;
+  height: 300rpx;
+
+}
+.first_tab .goods_item .goods_img_wrap{
+  flex:2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+image{
+  width: 70%;
+}
+.first_tab .goods_item .goods_info_wrap{
+  flex:3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.first_tab .goods_item .goods_info_wrap .goods_name{
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.first_tab .goods_item .goods_info_wrap .goods_price{
+  color:var(--themeColor);
+  font-size:32rpx;
+}

@@ -8,7 +8,9 @@
     "pages/login/login",
     "pages/pay/index",
     "pages/healthy/index",
-    "pages/healwatch/index"
+    "pages/healwatch/index",
+    "pages/yanglao/index",
+    "pages/quhainan/index"
   ],
   "window":{
     "backgroundTextStyle":"dark",

@@ -1,0 +1,6 @@
+{
+  "usingComponents": { "SearchInput":"../../components/SearchInput/SearchInput"},
+  "navigationBarTitleText":"去海南",
+  "enablePullDownRefresh":true,
+  "backgroundTextStyle":"dark"
+}

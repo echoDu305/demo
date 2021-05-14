@@ -1,0 +1,67 @@
+<!--pages/yanglao/index.wxml-->
+
+<SearchInput></SearchInput>
+<view id='tabs'>
+  <view class='tabs-box'>
+    <block wx:for="{{['距离最近','官方推荐','高分好评']}}" wx:key="index">
+      <view class="tabs-item {{currentTabIndex == index ? 'selected' : '' }}" bindtap='onTabsItemTap' data-index='{{index}}'>
+        {{item}}      
+      </view>
+    </block>
+  </view>
+  <view class='ordert-detail'>
+    <view hidden='{{currentTabIndex != 0}}'>
+      <view class="first_tab">
+      <navigator class="goods_item"
+      >
+        <view class="goods_img_wrap">
+          <image mode="widthFix" src="../../images/酒店1.jpg"></image>
+        </view>
+        <view class="goods_info_wrap">
+          <view class="goods_name">海南长宁期颐康养中心</view>
+          <view class="goods_price">￥5000/月</view>
+        </view>
+      </navigator>
+    </view>
+    <view class="first_tab">
+      <navigator class="goods_item"
+      >
+        <view class="goods_img_wrap">
+          <image mode="widthFix" src="../../images/酒店2.jpg"></image>
+        </view>
+        <view class="goods_info_wrap">
+          <view class="goods_name">民宿旅租养老度假公寓</view>
+          <view class="goods_price">￥2000/月</view>
+        </view>
+      </navigator>
+    </view>
+    <view class="first_tab">
+      <navigator class="goods_item"
+      >
+        <view class="goods_img_wrap">
+          <image mode="widthFix" src="../../images/酒店3.jpg"></image>
+        </view>
+        <view class="goods_info_wrap">
+          <view class="goods_name">三亚候鸟暖巢海景老年公寓</view>
+          <view class="goods_price">￥1800/月</view>
+        </view>
+      </navigator>
+    </view>
+    <view class="first_tab">
+      <navigator class="goods_item"
+      >
+        <view class="goods_img_wrap">
+          <image mode="widthFix" src="../../images/酒店4.jpg"></image>
+        </view>
+        <view class="goods_info_wrap">
+          <view class="goods_name">三亚海棠湾五星养老疗养中心</view>
+          <view class="goods_price">￥5000/月</view>
+        </view>
+      </navigator>
+    </view>
+    </view>
+    <view hidden='{{currentTabIndex != 1}}'>页面2</view>
+    <view hidden='{{currentTabIndex != 2}}'>页面3</view>
+
+  </view>
+</view>

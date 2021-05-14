@@ -51,6 +51,19 @@
         {
           "name": "主页",
           "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "养老机构",
+          "pathName": "pages/yanglao/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "去海南",
+          "pathName": "pages/quhainan/index",
+          "query": "",
           "scene": null
         }
       ]
